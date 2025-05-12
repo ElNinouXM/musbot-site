@@ -10,6 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">{children}</main>
@@ -18,3 +21,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
