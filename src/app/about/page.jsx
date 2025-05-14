@@ -11,32 +11,26 @@ export default function About() {
         {/* Bloc Vidéo à venir */}
         <div className="bg-white shadow-xl rounded-xl p-6 max-w-xl mx-auto border-4 border-dashed border-indigo-500">
           <div className="flex flex-col items-center space-y-4">
-            <div className="w-full h-64 bg-gray-100 flex items-center justify-center rounded-lg">
-              <span className="text-6xl">🎬</span>
-            </div>
             <h2 className="text-xl font-semibold text-gray-800">
-              Vidéo explicative en cours de réalisation...
+              Vidéo explicative MusBot
             </h2>
             <p className="text-gray-600 text-sm">
-              Cette vidéo vous montrera comment utiliser MusBot pour créer des projets,
-              gérer vos tâches, et automatiser votre organisation sur Discord étape par étape.
+              Cette vidéo vous montre comment inviter MusBot dans votre serveur Discord
+              et le configurer rapidement pour démarrer vos projets.
             </p>
 
-            {/*
-            ▶️ Pour activer la vidéo YouTube plus tard, décommente ce bloc :
 
             <div className="w-full aspect-video rounded-lg overflow-hidden shadow-lg">
               <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/dot1zEaWBsU"
+                src="https://www.youtube.com/embed/SoWAgCAtEmQ"
                 title="Vidéo explicative MusBot"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
             </div>
-            */}
           </div>
         </div>
       </main>
